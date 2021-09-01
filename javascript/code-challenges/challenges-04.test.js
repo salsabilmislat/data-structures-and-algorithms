@@ -28,6 +28,7 @@ const updateAnimal = (arr, callback) => {
     return upper(item)
   })
   return newArr;
+ 
 };
 
 /* ------------------------------------------------------------------------------------------------
