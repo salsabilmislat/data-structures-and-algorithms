@@ -23,11 +23,11 @@ function lower(str) {
 
 const updateAnimal = (arr, callback) => {
   // Solution code here...
-
-  let newArr = arr.map(item => {
-    return upper(item)
-  })
-  return newArr;
+  let addAnimal = [];
+  arr.forEach( (value)=> {
+    addAnimal.push(callback(value));
+  });
+  return addAnimal;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -77,7 +77,6 @@ HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 
 const sortBackwards = (arr) => {
   // Solution code here...
-
   return (arr.sort((a, b) => {
     if (b < a) {
       return -1;
@@ -121,7 +120,6 @@ Here is an example of the input:
 
 const sortByPrice = (arr) => {
   // Solution code here...
-
   return (arr.sort((a, b) => {
     if (a.price < b.price) {
       return -1;
