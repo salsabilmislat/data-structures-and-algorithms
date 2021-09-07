@@ -27,13 +27,15 @@ let starWarsPeople = [
 const sortStarWarsCharacters = (starWarsArr) => {
   // Solution code here...
 
-  starWarsArr.sort((a, b) => {
-    return b.height - a.height;
-});
-starWarsArr.forEach((e) => {
-  return (`${e.name} ${e.height}` )
-
-});
+  return( starWarsArr.sort((a, b) => {
+    if (parseInt(a.height) < parseInt(b.height)) {
+      return 1; 
+        }
+    if (parseInt(a.height)  > parseInt(b.height)) {
+      return -1; 
+    }
+    return 0;
+  }));
   
 }
 
@@ -45,7 +47,10 @@ Write a function named removeThree that takes an index and an array. The functio
 
 const removeThree = (idx, arr) => {
   // Solution code here...
- return   arr.splice(idx,3) ;
+  arr.splice(idx,1);
+  arr.splice(idx,1);
+  arr.splice(idx,1);
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
