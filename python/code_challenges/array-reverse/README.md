@@ -5,7 +5,7 @@ called reverseArray which takes an array as an argument. Without utilizing any o
 
 ## Whiteboard Process
 
-![code1](/code_challenges/array-reverse/array-reverse.PNG)
+![code1](array-reverse.PNG)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->

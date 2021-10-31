@@ -6,6 +6,14 @@
 
 Each type of code challenge has slightly different instructions. Please refer to the notes and examples below for instructions for each DS&A assignment type.
 
+## Table for code challenges
+
+| Name of Function | link |
+| ----------- | ----------- |
+| Reverse Array | [The reverse Array link](/home/salsabilmislat/code401/data-structures-and-algorithms/python/code_challenges/array-reverse/array_reverse.py)|
+
+
+
 ### Data Structure: New Implementation
 
 - Create a new folder under the `python` level, with the name of the data structure and complete your implementation there
