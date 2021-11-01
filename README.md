@@ -25,3 +25,4 @@ To run your tests
 | Name of Function | link |
 | ----------- | ----------- |
 | Reverse Array | [The reverse Array link](/home/salsabilmislat/code401/data-structures-and-algorithms/python/code_challenges/array-reverse/README.md)|
+| Array Insert Shift | [The Array Insert Shift link](/home/salsabilmislat/code401/data-structures-and-algorithms/python/code_challenges/array-insert-shift/README.md)|
