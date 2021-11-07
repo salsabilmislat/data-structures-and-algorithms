@@ -27,7 +27,7 @@ def test_insert_multi_values():
     newlist = LinkedList()
     newlist.insert(10)
     newlist.insert("a")
-    expected= "{ 10 } -> { a } -> NULL"
+    expected= "{ a } -> { 10 } -> NULL"
     actual= newlist.__str__()
     assert expected == actual
 
@@ -46,10 +46,11 @@ def test_not_includes_linked_list(newlist):
 
 def test_to_string_collection_values(newlist):
 
-    expected= "{ 10 } -> { a } -> { 4 } -> NULL"
+    expected= "{ 4 } -> { a } -> { 10 } -> NULL"
     actual= newlist.__str__()
 
     assert expected==actual
+
 
 # def test_first_node(newlist):
 #     newlist=Node()
