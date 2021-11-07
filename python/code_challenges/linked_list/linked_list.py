@@ -10,7 +10,7 @@ class LinkedList:
     def __init__(self):
         self.head=None
 
-    def insert(self,value):
+    def append(self,value):
 
         node = Node(value)
 
@@ -23,6 +23,12 @@ class LinkedList:
             while current.next != None:
                 current = current.next
             current.next = node
+
+
+    def insert(self,value):
+        node = Node(value)
+        node.next = self.head
+        self.head = node
 
     def includes(self,value):
 
@@ -58,10 +64,10 @@ if __name__=="__main__":
 
     newlist=LinkedList()
 
-    newlist.insert(5)
-    newlist.insert(8)
-    newlist.insert(10)
-    newlist.insert(12)
+    newlist.append(5)
+    newlist.append(8)
+    newlist.append(10)
+    newlist.append(12)
     newlist.insert(4)
     print(newlist)
 
