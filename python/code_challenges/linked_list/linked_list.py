@@ -52,6 +52,8 @@ class LinkedList:
             result += "NULL"
             return result
 
+    
+
 
 
 if __name__=="__main__":
