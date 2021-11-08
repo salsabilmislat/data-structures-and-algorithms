@@ -44,7 +44,7 @@ class LinkedList:
             result += "NULL"
             return result
 
-    ## the start of Lab 6
+    ## the start of code 6
 
 
     def append(self,value):
@@ -104,6 +104,33 @@ class LinkedList:
             current = current.next
         return False
 
+    # the start of code 7
+
+
+
+    def kthFromEnd(self, k):
+            current = self.head
+            length = 0
+            while current is not None:
+                current = current.next
+                length += 1
+
+            if k > length:
+                print('The K is greater than the length of LinkedList')
+                return ('The K is greater than the length of LinkedList')
+
+            if k < 0:
+                print('The K Must be a positive integer')
+                return ('The K Must be a positive integer')
+
+
+            current = self.head
+            for i in range(0, length - k -1):
+                current = current.next
+
+
+            print(current.value)
+            return(current.value)
 
 
 if __name__=="__main__":
@@ -113,9 +140,9 @@ if __name__=="__main__":
     newlist.append(5)
     newlist.append(8)
     newlist.append(10)
-
-    newlist.insertBefore(8,6)
-    newlist.insertAfter(10,20)
+    newlist.kthFromEnd(4)
+    # newlist.insertBefore(8,6)
+    # newlist.insertAfter(10,20)
     print(newlist)
 
     if newlist.includes(0):
