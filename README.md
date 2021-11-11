@@ -31,3 +31,4 @@ To run your tests
 | Linked List insertion| [The Linked List insertion link](python/code_challenges/linked-list-insertions/README.md)|
 | Linked List kth| [The Linked List kth link](python/code_challenges/linked-list-kth/README.md)|
 | Linked List zip| [The Linked List zip link](python/code_challenges/linked_list_zip/README.md)|
+| Stacks and Queues| [Stacks and Queues link](python/code_challenges/stack_and_queue/README.md)|
