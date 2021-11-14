@@ -1,6 +1,4 @@
 
-# from code_challenges.stack_and_queue.Stack import Stack
-
 class Node:
 
     def __init__(self,value):
@@ -82,7 +80,7 @@ class PseudoQueue:
     def dequeue(self):
 
         if not self.stack1.top:
-            
+
             raise Exception("empty queue")
 
         while self.stack1.top:
