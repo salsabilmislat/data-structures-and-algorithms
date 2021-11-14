@@ -32,3 +32,4 @@ To run your tests
 | Linked List kth| [The Linked List kth link](python/code_challenges/linked-list-kth/README.md)|
 | Linked List zip| [The Linked List zip link](python/code_challenges/linked_list_zip/README.md)|
 | Stacks and Queues| [Stacks and Queues link](python/code_challenges/stack_and_queue/README.md)|
+| Stack and Queue Pseudo| [Stack and Queue Pseudo link](python/code_challenges/stack_queue_pseudo/README.md)|
