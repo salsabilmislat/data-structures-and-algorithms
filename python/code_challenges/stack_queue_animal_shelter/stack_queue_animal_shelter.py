@@ -76,10 +76,10 @@ class AnimalShelter:
 
         if animal.animaltype =='cat':
             self.cat.enqueue(animal.nickname)
-            return animal
+            return animal.nickname
         elif animal.animaltype =='dog':
             self.dog.enqueue(animal.nickname)
-            return animal
+            return animal.nickname
         else:
 
             return 'This is not cat or dog'
