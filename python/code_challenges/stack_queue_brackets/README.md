@@ -4,7 +4,7 @@
 
 ## Whiteboard Process
 
-![code13](brackets1.PNG)
+![code13](brackets2.PNG)
 
 ## Approach & Efficiency
 
