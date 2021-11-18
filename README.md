@@ -35,3 +35,4 @@ To run your tests
 | Stack and Queue Pseudo| [Stack and Queue Pseudo link](python/code_challenges/stack_queue_pseudo/README.md)|
 | Stack Queue Animal Shelter| [Stack Queue Animal Shelter link](python/code_challenges/stack_queue_animal_shelter/README.md)|
 | Stack Queue Brackets| [Stack Queue Brackets link](python/code_challenges/stack_queue_brackets/README.md)|
+| Trees| [Trees link](python/code_challenges/trees/README.md)|
