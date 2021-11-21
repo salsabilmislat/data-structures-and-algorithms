@@ -36,3 +36,4 @@ To run your tests
 | Stack Queue Animal Shelter| [Stack Queue Animal Shelter link](python/code_challenges/stack_queue_animal_shelter/README.md)|
 | Stack Queue Brackets| [Stack Queue Brackets link](python/code_challenges/stack_queue_brackets/README.md)|
 | Trees| [Trees link](python/code_challenges/trees/README.md)|
+| Tree Max| [Tree Max link](python/code_challenges/trees/README.md)|

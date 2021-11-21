@@ -63,3 +63,18 @@ def test_postorder():
     tree.root.left.right=Node('E')
     tree.root.right.left=Node('F')
     assert tree.post_order(tree.root)==['D', 'B', 'E', 'F', 'C', 'A']
+
+
+## test for code challenge 16
+
+
+
+def test_maximum_value():
+    tree2=BinaryTree()
+    tree2.root=Node(1)
+    tree2.root.left=Node(5)
+    tree2.root.right=Node(10)
+    tree2.root.left.left=Node(2)
+    tree2.root.left.right=Node(4)
+    tree2.root.right.left=Node(3)
+    assert tree2.maximum_value()==10

@@ -51,6 +51,31 @@ class BinaryTree:
 
         return output
 
+
+    ## code challenge 16
+
+    def maximum_value(self):
+
+        if not self.root:
+
+            return "This Tree is Empty"
+
+        self.max=self.root.value
+
+        def traverse(node):
+
+            if node.value>self.max:
+                self.max=node.value
+            if node.left:
+                traverse(node.left)
+            if node.right:
+                traverse(node.right)
+            return self.max
+
+        return traverse(self.root)
+
+
+
 class Binary_Search_Tree(BinaryTree):
 
     def add(self,value):
@@ -103,6 +128,7 @@ class Binary_Search_Tree(BinaryTree):
 
 
 if __name__=="__main__":
+
     tree=BinaryTree()
     tree.root=Node('A')
     tree.root.left=Node('B')
@@ -126,3 +152,20 @@ if __name__=="__main__":
     print(tree1.contains("H"))
     print(tree1.contains("I"))
     print(tree1.contains("s"))
+
+
+   ## code challenge 16
+
+    tree2=BinaryTree()
+    tree2.root=Node(1)
+    tree2.root.left=Node(5)
+    tree2.root.right=Node(10)
+    tree2.root.left.left=Node(2)
+    tree2.root.left.right=Node(4)
+    tree2.root.right.left=Node(3)
+
+    print(tree2.maximum_value())
+
+
+
+
