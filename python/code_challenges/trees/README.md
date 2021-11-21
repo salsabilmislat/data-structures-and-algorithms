@@ -31,3 +31,31 @@
 
 The Efficiency of the Big O time is O(n)
 
+
+____________________________
+
+## challenge 16
+
+
+### Challenge Summary
+
+**Create function called maximum_value which Find the maximum value stored in the tree**
+
+## Whiteboard Process
+
+![code16](tree_max.PNG)
+
+## Approach & Efficiency
+
+The Efficiency of the Big O time is O(n)
+The Efficiency of the Big O space is O(n)
+
+## Solution
+
+### maximum_value
+
+**It will take the nodes and check the max value and return it**
+
+    find maximum value
+    Arguments: none
+    Returns: number
