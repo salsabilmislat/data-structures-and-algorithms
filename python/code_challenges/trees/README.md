@@ -43,7 +43,7 @@ ____________________________
 
 ## Whiteboard Process
 
-![code16](tree_max.PNG)
+![code16](max2.PNG)
 
 ## Approach & Efficiency
 
