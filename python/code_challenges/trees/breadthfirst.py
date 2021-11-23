@@ -1,4 +1,4 @@
-from collections import deque
+# from collections import deque
 
 class Node:
 
@@ -61,7 +61,7 @@ class Node1:
        self.next=None
 
 
-class Queue(deque):
+class Queue():
 
     def __init__(self):
 
@@ -86,6 +86,11 @@ class Queue(deque):
 
           raise Exception ('This Queue is Empty')
 
+        if self.rear==self.front:
+            temp = self.front
+            self.rear =  None
+            self.front = None
+            return temp.value
 
         temp=self.front
         self.front=self.front.next
@@ -118,17 +123,19 @@ def breadth_first(tree):
 
         return 'this tree is empty'
 
-    queue.append(tree.root)
+    queue.enqueue(tree.root)
 
-    while queue:
-        start=queue.popleft()
+    ## it can work with front also
+
+    while not queue.isEmpty():
+        start=queue.dequeue()
         output.append(start.value)
 
         if start.left:
-            queue.append(start.left)
+            queue.enqueue(start.left)
 
         if start.right:
-            queue.append(start.right)
+            queue.enqueue(start.right)
 
 
     return output
