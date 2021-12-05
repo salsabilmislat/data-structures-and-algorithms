@@ -18,4 +18,4 @@ The Efficiency of the Big O space is O(1)
 
     function called insertion_sort
     Arguments: array
-    Return: the array which should be incrementally sorted
+    Return: the array should be incrementally sorted
