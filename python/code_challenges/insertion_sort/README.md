@@ -4,7 +4,7 @@ Insertion Sort is a sorting algorithm that traverses the array multiple times as
 
 ## Whiteboard Process
 
-![code26](sorted.PNG)
+![code26](sorted1.PNG)
 
 ## Approach & Efficiency
 
