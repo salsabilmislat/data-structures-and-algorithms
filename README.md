@@ -40,4 +40,4 @@ To run your tests
 | Tree breadth first| [Tree breadth first link](python/code_challenges/trees/README.md)|
 | Tree fizz buzz| [Tree fizz buzz link](python/code_challenges/tree_fizz_buzz/README.md)|
 | Insertion Sort| [Insertion Sort link](python/code_challenges/insertion_sort/README.md)|
-
+| Merge Sort| [Merge Sort link](python/code_challenges/merge_sort/README.md)|
