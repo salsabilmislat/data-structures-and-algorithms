@@ -41,3 +41,4 @@ To run your tests
 | Tree fizz buzz| [Tree fizz buzz link](python/code_challenges/tree_fizz_buzz/README.md)|
 | Insertion Sort| [Insertion Sort link](python/code_challenges/insertion_sort/README.md)|
 | Merge Sort| [Merge Sort link](python/code_challenges/merge_sort/README.md)|
+| Quick Sort| [Quick Sort link](python/code_challenges/quick_sort/README.md)|
