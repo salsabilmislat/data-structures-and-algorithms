@@ -27,7 +27,7 @@ class LinkedList:
             current = current.next
 
         return False
-    
+
     def __str__(self):
 
         result = ""

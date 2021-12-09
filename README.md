@@ -42,3 +42,4 @@ To run your tests
 | Insertion Sort| [Insertion Sort link](python/code_challenges/insertion_sort/README.md)|
 | Merge Sort| [Merge Sort link](python/code_challenges/merge_sort/README.md)|
 | Quick Sort| [Quick Sort link](python/code_challenges/quick_sort/README.md)|
+| Hash Table| [Hash Table link](python/code_challenges/hash_table/README.md)|
