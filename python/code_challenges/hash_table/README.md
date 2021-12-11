@@ -8,7 +8,7 @@ Hashing is a technique that is used to uniquely identify a specific object from 
 
 The Efficiency of the Big O time is O(n)
 
-The Efficiency of the Big O space is O(n)
+The Efficiency of the Big O space is O(1)
 
 ## API
 
