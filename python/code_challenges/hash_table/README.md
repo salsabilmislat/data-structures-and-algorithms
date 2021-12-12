@@ -16,19 +16,27 @@ The Efficiency of the Big O space is O(1)
 
     Arguments: key
     Returns: Index in the collection for that key
+    The Efficiency of the Big O time is O(n)
+    The Efficiency of the Big O space is O(1)
 
 ### get
 
     Arguments: key
     Returns: Value associated with that key in the table
+    The Efficiency of the Big O time is O(n)
+    The Efficiency of the Big O space is O(1)
 
 ### add
 
     Arguments: key, value
     Returns: nothing
     This method should hash the key, and add the key and value pair to the table, handling collisions as needed.
+    The Efficiency of the Big O time is O(n)
+    The Efficiency of the Big O space is O(1)
 
 ### contains
 
     Arguments: key
     Returns: Boolean, indicating if the key exists in the table already.
+    The Efficiency of the Big O time is O(n)
+    The Efficiency of the Big O space is O(1)
