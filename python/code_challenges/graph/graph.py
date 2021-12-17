@@ -82,7 +82,7 @@ class Graph:
         result.append(start_vertex)
 
         while len(queue):
-            current_vertex = queue.dequeu()
+            current_vertex = queue.dequeue()
 
         neighbors = self.get_neighbors(current_vertex)
 
@@ -95,12 +95,14 @@ class Graph:
                 result.append(neighbor)
 
         return result
-    # def print_graph(self):
-    #     print(self._adj_list)
+
 
 if __name__=="__main__":
     graph=Graph()
     val1=graph.add_node("A")
     val2=graph.add_node("B")
     graph.add_edge(val1,val2,1)
-    # print(graph.print_graph())
+
+    for i in graph.breadth_first_search(val1):
+        print (i.value)
+    
