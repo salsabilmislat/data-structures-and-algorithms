@@ -10,7 +10,7 @@ create a graph class to Implement methods in how to add node , add edge , get no
 
 The Efficiency of the Big O time is O(n)
 
-The Efficiency of the Big O space is O(1)
+The Efficiency of the Big O space is O(n)
 
 ## API
 
@@ -20,7 +20,7 @@ The Efficiency of the Big O space is O(1)
     Returns: The added node
     Add a node to the graph
 
-    The Efficiency of the Big O time is O(n)
+    The Efficiency of the Big O time is O(1)
     The Efficiency of the Big O space is O(1)
 
 ### add edge
@@ -29,7 +29,7 @@ The Efficiency of the Big O space is O(1)
     Returns: nothing
     Adds a new edge between two nodes in the graph, If specified, assign a weight to the edge, Both nodes should already be in the Graph
 
-    The Efficiency of the Big O time is O(n)
+    The Efficiency of the Big O time is O(1)
     The Efficiency of the Big O space is O(1)
 
 ### get nodes
@@ -38,20 +38,20 @@ The Efficiency of the Big O space is O(1)
     Returns all of the nodes in the graph as a collection (set, list, or similar)
 
     The Efficiency of the Big O time is O(n)
-    The Efficiency of the Big O space is O(1)
+    The Efficiency of the Big O space is O(n)
 
 ### get neighbors
 
     Arguments: node
     Returns a collection of edges connected to the given node Include the weight of the connection in the returned collection
 
-    The Efficiency of the Big O time is O(n)
-    The Efficiency of the Big O space is O(1)
+    The Efficiency of the Big O time is O(1)
+    The Efficiency of the Big O space is O(n)
 
 ### size
 
     Arguments: none
     Returns the total number of nodes in the graph
 
-    The Efficiency of the Big O time is O(n)
+    The Efficiency of the Big O time is O(1)
     The Efficiency of the Big O space is O(1)
