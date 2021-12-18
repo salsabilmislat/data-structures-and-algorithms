@@ -72,29 +72,7 @@ class Graph:
 
         return len(self._adj_list)
 
-    def breadth_first_search(self,start_vertex):
-
-        queue=Queue()
-        visited=set()
-        result=[]
-        queue.enqueue(start_vertex)
-        visited.add(start_vertex)
-        result.append(start_vertex)
-
-        while len(queue):
-            current_vertex = queue.dequeue()
-
-        neighbors = self.get_neighbors(current_vertex)
-
-        for edge in neighbors:
-            neighbor = edge.vertex
-
-            if neighbor not in visited:
-                queue.enqueue(neighbor)
-                visited.add(neighbor)
-                result.append(neighbor)
-
-        return result
+   
 
 
 if __name__=="__main__":
@@ -105,4 +83,4 @@ if __name__=="__main__":
 
     for i in graph.breadth_first_search(val1):
         print (i.value)
-    
+
