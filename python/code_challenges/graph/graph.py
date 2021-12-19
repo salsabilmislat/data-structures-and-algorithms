@@ -72,15 +72,20 @@ class Graph:
 
         return len(self._adj_list)
 
-   
+
+
 
 
 if __name__=="__main__":
     graph=Graph()
     val1=graph.add_node("A")
     val2=graph.add_node("B")
-    graph.add_edge(val1,val2,1)
+    val3=graph.add_node("C")
+    graph.add_edge(val1,val2,50)
+    graph.add_edge(val1,val3,1)
+    graph.add_edge(val2,val3,1)
 
-    for i in graph.breadth_first_search(val1):
-        print (i.value)
+
+    # for i in graph.breadth_first(val1):
+    #     print (i)
 
