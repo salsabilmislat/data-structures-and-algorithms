@@ -8,7 +8,7 @@ Write a method that called a breadth first that take a Arguments: Node and Retur
 
 ## Approach & Efficiency
 
-The Efficiency of the Big O time is O(n)
+The Efficiency of the Big O time is O(n^2)
 
 The Efficiency of the Big O space is O(n)
 

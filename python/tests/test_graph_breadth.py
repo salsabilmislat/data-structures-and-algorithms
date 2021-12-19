@@ -32,15 +32,15 @@ def test_breadth_first():
     graph.add_edge(g3,g5,3)
 
     graph.add_edge(g4,g5,5)
-    
+
     graph.add_edge(g5,g1,10)
 
     assert graph.breadth_first(g1) == [1, 2, 3, 4, 5]
 
-    assert graph.breadth_first(g2) == [2, 4]
+    assert graph.breadth_first(g2) == [2, 4, 5, 1, 3]
 
-    assert graph.breadth_first(g3) == [3, 4, 5]
+    assert graph.breadth_first(g3) == [3, 4, 5, 1, 2]
 
-    assert graph.breadth_first(g4) == [4, 5]
+    assert graph.breadth_first(g4) == [4, 5, 1, 2, 3]
 
-    assert graph.breadth_first(g5) == [5,1]
+    assert graph.breadth_first(g5) == [5, 1, 2, 3, 4]
