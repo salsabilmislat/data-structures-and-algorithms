@@ -48,3 +48,4 @@ To run your tests
 | Hash Map Left Join| [Hash Map Left Join link](python/code_challenges/hashmap_left_join/README.md)|
 | Graph| [Graph link](python/code_challenges/graph/README.md)|
 | Graph Bridth First| [Graph Bridth First link](python/code_challenges/graph_breadth_first/README.md)|
+| Graph Business Trip| [Graph Business Trip link](python/code_challenges/graph_business_trip/README.md)|
