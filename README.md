@@ -49,3 +49,4 @@ To run your tests
 | Graph| [Graph link](python/code_challenges/graph/README.md)|
 | Graph Bridth First| [Graph Bridth First link](python/code_challenges/graph_breadth_first/README.md)|
 | Graph Business Trip| [Graph Business Trip link](python/code_challenges/graph_business_trip/README.md)|
+| Graph Depth First| [ Graph Depth First link](python/code_challenges/graph_depth_first/README.md)|
